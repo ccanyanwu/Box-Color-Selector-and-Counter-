@@ -9,14 +9,16 @@
 <body>
     <main class="container">
         <h1>Box Color Selector & Counter</h1>
-        <div id="color-box"></div>
+        <div id="color-box">
+            <p>Number of boxes:</p>
+            <h3 id="counter">0</h3>
+        </div>
         <select name="color-picker" id="color-picker">
             <option value="color">Select a color</option>
             <option value="Teal">Teal</option>
             <option value="Orange">Orange</option>
             <option value="Blue">Blue</option>
             <option value="Green">Green</option>
-            <option value="Yellow">Yellow</option>
             <option value="Purple">Purple</option>
             <option value="Red">Red</option>
         </select>
@@ -24,6 +26,9 @@
             <button id="increment">+</button>
             <button id="decrement">-</button>
         </div>
+
+        <input type="button" value="GET SUMMARY">
+        <p id="summary"></p>
         </main>
     <script src="app.js"></script>
 </body>

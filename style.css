@@ -12,6 +12,9 @@ body{
     justify-content: center;
     min-height: 100vh;
 }
+select, 
+button, 
+input[type="button"]{cursor: pointer;}
 main{
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
@@ -27,11 +30,15 @@ h1{
     text-align: center;
 }
 #color-box{
-    background-color: aliceblue;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.5rem;
     height: 15rem;
     margin: auto;
+    padding: 2rem;
     width: 15rem;
 }
+h3{margin-top: 1rem;}
 select{
     border: 0;
     display: block;
@@ -41,12 +48,26 @@ select{
     width: 13rem;
 }
 .buttons{
-    background-color: aqua;
     display: flex;
     justify-content: space-around;
     margin: auto;
     width: 15rem;
 }
 button{
+    border: 0;
+    border-radius: 0.25rem;
+    font-size: 1.4rem;
+    height: 2rem;
     width: 4rem;
+}
+input[type="button"]{
+    border: 0;
+    display: block;
+    margin:2rem auto;
+    padding: 1rem;
+}
+#summary{text-align: center;}
+/**media query*/
+@media all and (max-width:24rem){
+    main{width:90%}
 }
