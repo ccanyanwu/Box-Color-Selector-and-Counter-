@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+    background-image: url("https://media.istockphoto.com/vectors/gradient-blob-abstract-background-vector-id1282505760?k=6&m=1282505760&s=612x612&w=0&h=3qdPxcMLplq-nJIFftwBbPci7L8k8EN70C-rqEB7CGM=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+main{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    background-clip: padding-box;
+    border: solid 1px rgba(255, 255, 255, 0.3);
+    border-radius: 0.5rem;
+    height: auto;
+    padding: 2rem;
+    width: 60%;
+}
+h1{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+#color-box{
+    background-color: aliceblue;
+    height: 15rem;
+    margin: auto;
+    width: 15rem;
+}
+select{
+    border: 0;
+    display: block;
+    height:2rem;
+    margin: 3rem auto;
+    outline: none;
+    width: 13rem;
+}
+.buttons{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 15rem;
+}
+button{
+    width: 4rem;
+}
